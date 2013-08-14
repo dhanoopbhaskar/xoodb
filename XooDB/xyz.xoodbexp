@@ -1,0 +1,107 @@
+Server Waiting for Connection
+
+127.0.0.1 Connected
+
+---------------------------------------------------------
+
+
+
+Server Waiting for Connection
+
+SHOW DATABASES
+
+token: SHOW
+
+token: DATABASES
+
+SELECT * FROM student
+
+token: SELECT
+
+token: student
+
+token: 
+
+SHOW DATABASES
+
+token: SHOW
+
+token: DATABASES
+
+SELECT * FROM account
+
+token: SELECT
+
+token: account
+
+token: 
+
+SELECT * FROM admin
+
+token: SELECT
+
+token: admin
+
+token: 
+
+SELECT * FROM cabin
+
+token: SELECT
+
+token: cabin
+
+token: 
+
+SELECT * FROM infrequentuser
+
+token: SELECT
+
+token: infrequentuser
+
+token: 
+
+SELECT * FROM loginhistory
+
+token: SELECT
+
+token: loginhistory
+
+token: 
+
+SELECT * FROM infrequentuser
+
+token: SELECT
+
+token: infrequentuser
+
+token: 
+
+SELECT * FROM account
+
+token: SELECT
+
+token: account
+
+token: 
+
+SELECT * FROM admin
+
+token: SELECT
+
+token: admin
+
+token: 
+
+SELECT * FROM cabin
+
+token: SELECT
+
+token: cabin
+
+token: 
+
+SHOW DATABASES
+
+token: SHOW
+
+token: DATABASES

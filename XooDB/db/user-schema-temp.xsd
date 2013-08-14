@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="user-schema">
+	<xs:complexType>
+	<xs:sequences>
+		<xs:element name="user-info">
+		<xs:complexType>
+		<xs:sequences>
+			<xs:element name="user-name" type="xs:string"/>
+		</xs:sequences>
+		</xs:complexType>	
+		</xs:element>
+		
+		<xs:element name="db-info">
+		<xs:complexType>
+		<xs:sequences>
+			<xs:element name="database-name" maxOccurs="unbounded">
+			<xs:complexType>
+			<xs:sequences>
+				<xs:element name="table-info">
+				<xs:complexType>
+				<xs:sequences>
+					<xs:element name="table" maxOccurs="unbounded">
+					<xs:complexType>
+					<xs:sequences>
+						<xs:element name="column" maxOccurs="unbounded"/>
+					</xs:sequences>
+					</xs:complexType>	
+					</xs:element>				
+				</xs:sequences>
+				</xs:complexType>	
+				</xs:element>				
+			</xs:sequences>
+			</xs:complexType>	
+			</xs:element>
+		</xs:sequences>
+		</xs:complexType>	
+		</xs:element>
+		
+	</xs:sequences>
+	</xs:complexType>	
+	</xs:element>
+</xs:schema>

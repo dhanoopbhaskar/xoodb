@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<user-schema>
+	<user-info>
+		<user-name>safi</user-name>
+	</user-info>
+	<database-info>
+		<database db-name="mydb" owner="">
+			<table-info>
+				<table table-name="table1">
+					<column column_name = "col1" type="varchar" primary-key="true">
+					<column column_name = "col2" type="varchar">
+					<column column_name = "col3" type="varchar">
+				</table>
+				<table table-name="table1">
+					<column column_name = "col1" type="varchar">
+					<column column_name = "col2" type="varchar">
+					<column column_name = "col3" type="varchar">
+				</table>
+			</table-info>			
+		</database>
+		<database db-name="mydb2" owner="">
+			<table-info>
+				<table table-name="table1">
+					<column column_name = "col1" type="varchar">
+					<column column_name = "col2" type="varchar">
+					<column column_name = "col3" type="varchar">
+				</table>
+				<table table-name="table1">
+					<column column_name = "col1" type="varchar">
+					<column column_name = "col2" type="varchar">
+					<column column_name = "col3" type="varchar">
+				</table>
+			</table-info>			
+		</database>
+	</database-info>
+</user-schema>
